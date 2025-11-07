@@ -31,3 +31,7 @@ TypeError {▼
   [Symbol(Symbol.toStringTag)]: 'Error',
 }
 ```
+
+## 4. Works in correct when deployed to Vercel
+
+Visit: https://nitro-workflow-sample.vercel.app/api/trigger-test

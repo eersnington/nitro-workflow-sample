@@ -1,18 +1,16 @@
 import say from "../lib/helpers";
 
-async function createUser(email: string) {
+async function sayHello() {
     "use step";
 
-    console.log(say());
-
-    return { id: crypto.randomUUID(), email };
+    return { id: crypto.randomUUID(), message: say() };
 }
 
 
 export async function test() {
   "use workflow";
 
-  const user = await createUser("test@example.com");
+  const greeting = await sayHello();
 
-  return user
+  return greeting
 }
