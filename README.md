@@ -1,18 +1,18 @@
 # nitro workflow failing example
 
-1. Install dependencies
+## 1. Install dependencies
 
 ```bash
 pnpm install
 ```
 
-2. Run the development server
+## 2. Run the development server
 
 ```bash
 pnpm dev
 ```
 
-3. Visit https://localhost:3000
+## 3. Visit https://localhost:3000
 
 ````
 Error: Unknown file extension ".ts" for /code/nitro-workflow-sample/lib/helpers.ts
