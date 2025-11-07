@@ -10,7 +10,7 @@ async function sayHello() {
 export async function test() {
   "use workflow";
 
-  const user = await sayHello();
+  const greeting = await sayHello();
 
-  return user
+  return greeting
 }
