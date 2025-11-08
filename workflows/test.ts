@@ -1,4 +1,4 @@
-import say from "../lib/helpers";
+import say from "@/lib/helpers";
 
 async function sayHello() {
     "use step";

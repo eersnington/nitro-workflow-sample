@@ -12,5 +12,6 @@
   },
   "dependencies": {
     "workflow": "4.0.1-beta.11"
-  }
+  },
+  "packageManager": "pnpm@10.20.0"
 }
